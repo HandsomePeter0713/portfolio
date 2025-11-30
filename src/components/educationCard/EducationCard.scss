@@ -35,7 +35,7 @@
   font-size: 28px;
   font-weight: 700;
   text-overflow: ellipsis;
-  overflow: hidden;
+  overflow: visible;
   white-space: nowrap;
   height: 27px;
 }
@@ -50,7 +50,7 @@
 }
 
 .education-card-right {
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .education-text-subHeader {
@@ -80,7 +80,7 @@
 
 /* Media Query */
 
-@media (max-width: 1380px) {
+@media (max-width: 1000px) {
   .education-card {
     flex-direction: column;
     padding-bottom: 10px;

@@ -20,28 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yao-Peng Chang",
+  title: "Hi all, I'm Yao-Peng Chang",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Mechanical Engineering student and Robotics Enthusiast 🚀. Experienced in mechatronics, control systems, and full-stack development. I love building robots that move in unique ways!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Insert your Google Drive link to CV_1128.pdf here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/", // Update with your actual GitHub URL
+  linkedin: "https://www.linkedin.com/", // Update with your actual LinkedIn URL
+  gmail: "yp.peter.chang@gmail.com",
+  // gitlab: "https://gitlab.com/",
+  // facebook: "https://www.facebook.com/",
+  // medium: "https://medium.com/",
+  // stackoverflow: "https://stackoverflow.com/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,72 +47,50 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "MECHANICAL DESIGN, ROBOTICS CONTROL & SOFTWARE INTEGRATION",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Designing complex mechanisms and robotic systems using advanced CAD tools"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Developing control algorithms and simulations in Simulink"
+    ),
+    emoji(
+      "⚡ Integrating electromechanical systems with microcontrollers and AI vision"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "SolidWorks",
+      fontAwesomeClassname: "fas fa-cube"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C/C++",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "MATLAB",
+      fontAwesomeClassname: "fas fa-layer-group" // approximation for analysis
+    },
+    {
+      skillName: "ROS/Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "LabVIEW",
+      fontAwesomeClassname: "fas fa-microchip"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +102,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "National Taiwan University (NTU)",
+      logo: require("./assets/images/ntuLogo.jpg"), // Update with NTU logo if available
+      subHeader: "B.S. in Mechanical Engineering, minor in Computer Science and Information Engineering",
+      duration: "September 2021 - January 2026",
+      desc: "Overall GPA: 4.14/4.3 | Ranking: 7/210 (Top 3%)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specialized in Robotics, Control Systems, and Vehicle Dynamics.",
+        "Presidential Award (Academic Year 2022) - Top 2% of department.",
+        "Academic Excellence Award (3 semesters) - Top 5% of class."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,22 +119,22 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Mechanical Design (CAD/CAE)",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Control Systems & Simulation",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Programming (C++/Python)",
+      progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section
 };
 
 // Work experience section
@@ -174,39 +143,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Undergraduate Researcher",
+      company: "Bio-inspired Robotics Laboratory",
+      companylogo: require("./assets/images/biorolaLogo.jpg"), // Update logo
+      date: "June 2023 – October 2025",
+      desc: "Advisor: Prof. Pei-Chun Lin",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed 'Mosphero', a dual-mode spherical robot with a differential drive mechanism.",
+        "Built dynamic models in MATLAB/Simulink and validated them through experiments.",
+        "Implemented angular velocity control (reduced IAE by 87.1%) and impulsive momentum control (shortened escape time on deformable terrain by 7.4x)."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mechanical Engineering Intern",
+      company: "Logitech",
+      companylogo: require("./assets/images/logitechLogo.png"), // Update with Logitech logo
+      date: "July 2024 – August 2024",
+      desc: "Worked on Racing Simulation Products.",
+      descBullets: [
+        "Built the company's first active-pedal prototype, benchmarking commercial systems for force-feedback performance.",
+        "Designed a force-sensing mechanism with load cells and integrated a PID controller on linear actuators for adjustable pedal resistance."
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+/* Your Open Source Section to View Your Github Pinned Projects */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -214,90 +180,41 @@ const openSource = {
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  projects: [],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Awards & Honors 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Recognition for competitions.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "First Prize, MechaHeroes 2024",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Awarded for the research and design of the 2-DOF spherical robot (Mosphero).",
+      image: require("./assets/images/MechaHeroes.jpg"), // Update Image
+      imageAlt: "MechaHeroes Award",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "FSAE Japan 2025",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Overall 11/25 in EV Class. Won Sportsmanship Award & JAMA Chairman Award for outstanding team performance.",
+      image: require("./assets/images/NTUR_award.jpg"), // Update Image
+      imageAlt: "FSAE Award",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Best Popularity Award",
+      subtitle: "2023 MakeNTU Hackathon for the 'Backflipping Mechanical Cat Robot'.",
+      image: require("./assets/images/Cat_award.jpg"), // Update Image
+      imageAlt: "MakeNTU Award",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -307,83 +224,366 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  displayMediumBlogs: "false", 
+  blogs: [],
+  display: false 
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  talks: [],
+  display: false 
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "",
+  podcast: [],
+  display: false 
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+886-979327123",
+  email_address: "yp.peter.chang@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "twitter", 
+  display: false 
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+// My Custom Project Section
+
+const customProjects = {
+  display: true,
+  title: "Academic & Tech Projects",
+  subtitle: "ROBOTICS, AUTOMATION & SOFTWARE DEVELOPMENT",
+  projects: [
+    {
+      title: "Dual-Mode Spherical Robot (Mosphero)",
+      subtitle: "2023-2025, Bio-inspired Robotics Lab, NTU",
+      summary: "A novel spherical robot using a differential drive mechanism to achieve omnidirectional rolling and terrain escape capabilities.",
+      image: require("./assets/images/1_actual_robot.jpg"), // Update with: Spherical Robot Image [cite: 68]
+      descriptionSections: [
+        {
+          heading: "Project Goals:",
+          points: [
+            "Design Mosphero to achieve continuous omnidirectional rolling, sharp turns, and side-rolling capability.",
+            "Integrate a dual-mode actuation strategy for self-rescue on deformable terrain using high-torque impulses.",
+            "Develop a modular shell structure that ensures expandability for additional sensing/actuation modules."
+          ]
+        },
+        {
+          heading: "Methods:",
+          points: [
+            "Mechanism: Coaxial dual-pendulum mechanism with bevel gear coupling, enabling two-axis rotation.",
+            "Control: Hierarchical architecture combining low-level PI motor control (Arduino) with high-level Angular Velocity Control and Impulsive Momentum Control (Raspberry Pi).",
+            "Modeling: Dynamic model formulated using the Lagrangian method and verified against Vicon motion capture data and MATLAB/Simulink simulations."
+          ]
+        },
+        {
+          heading: "Results:",
+          points: [
+            "Stability: Closed-loop control successfully stabilized the system, reducing the Integral of Absolute Error (IAE) by 87.1% compared with open-loop operation.",
+            "Terrain Traversal: Impulsive actuation shortened the escape time on deformable terrain by a factor of 7.4 and nearly doubled the success rate.",
+            "Agility: 2D trajectory tests confirmed omnidirectional locomotion capability, including sharp turns and side-rolling maneuvers."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/1_actual_robot.png"), // Update with robot photo
+          caption: "The Dual-Mode Spherical Robot (Mosphero)."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/2_a_cad.png"), // Update with robot photo
+          caption: "The differential drive mechanism in the robot."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/2_b_hardware_block_diagram.png"), // Update with robot photo
+          caption: "The hardware architecture of the robot."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/3_dynamic.png"), // Update with robot photo
+          caption: "The dynamic equation derived with the Lagrangian method."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/5_b_angular_velocity.png"), // Update with robot photo
+          caption: "The angular velocity controller vs open-loop controller."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/5_b_control.png"), // Update with robot photo
+          caption: "The result of the angular velocity controller in different reference velocity."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/5_c_momentum.png"), // Update with robot photo
+          caption: "The impulsive momentum controller decrease the time to leave the terrain."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/RmHryG-aZJY", // Video from PDF 
+          caption: "Demo Video: Mosphero."
+        },
+      ]
+    },
+    {
+      title: "Hub Motor Gearbox Development",
+      subtitle: "2022-Present, NTU Racing Formula SAE",
+      summary: "Designed and optimized three generations of planetary reduction gearboxes for an electric racing car.",
+      image: require("./assets/images/NTUR_cover.jpg"), // Update with: Gearbox CAD 
+      descriptionSections: [
+        {
+          heading: "Key Achievements:",
+          points: [
+            "2023: Developed team's first hub planetary gearbox (gear modeling, load analysis, ANSYS/KISSsoft verification).",
+            "2024: Rebuilt boundary conditions and redesigned for 41% mass reduction.",
+            "2025: Co-developed new architecture reducing 350g per wheel and 30% thickness."
+          ]
+        },
+        {
+          heading: "Results:",
+          points: [
+            "FSAE Japan 2025 - Overall 11/25 (EV Class)",
+            "FSAE Japan 2025 - Sportsmanship Award & JAMA Chairman Award",
+            "Formula Student Taiwan 2025 - 2nd Place",
+            "Formula Student Taiwan 2023 - 1nd Place",
+          ]
+        },
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/NTUR_wheelend.png"), // Update with Gearbox Image
+          caption: "The wheel-end system and the hub motor gearbox."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/NTUR_sketch.png"), // Update with Gearbox Image
+          caption: "The sketch of the gearbox architecture."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/NTUR_ansys.jpg"), // Update with Gearbox Image
+          caption: "Simulating the carrier of the gearbox in ANSYS."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/NTUR_2nd.png"), // Update with Gearbox Image
+          caption: "The ring gear of the second generation of the gearbox, the whole gearbox reducing 41% of mass."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/NTUR_car.jpg"), // Update with Gearbox Image
+          caption: "Our race car on the FSAE Japan 2025 circuit."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/sIDlzRR5fLI", // Video from PDF https://youtube.com/shorts/sIDlzRR5fLI?feature=share
+          caption: "Demo Video: Gearbox."
+        },
+      ]
+    },
+    {
+      title: "Traction Control & Torque Vectoring",
+      subtitle: "2024, Course Project, Vehicle Dynamics",
+      summary: "Implemented PID slip control and torque vectoring to enhance cornering stability and acceleration.",
+      image: require("./assets/images/TCTV_TC.png"), // Update with: Simulation Graphs [cite: 196]
+      descriptionSections: [
+        {
+          heading: "Methods:",
+          points: [
+            "Modeled Magic-Formula tire characteristics and a 3-DOF bicycle vehicle model in Simulink.",
+            "Designed a PID slip controller to regulate wheel torque in real-time.",
+            "Calculated differential wheel torque to generate required yaw moment for vectoring."
+          ]
+        },
+        {
+          heading: "Results:",
+          points: [
+            "Improved 0-75m acceleration time by 0.35 seconds (4.64s -> 4.29s).",
+            "Significantly improved trajectory tracking during cornering compared to non-TV vehicles."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/TCTV_tire.png"), 
+          caption: "Longitudinal force vs. slip ratio under different vertical loads (P = 12 psi) with Magic Formula fitting."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/TCTV_TC.png"), 
+          caption: "Traction controller in MATLAB/Simulink."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/TCTV_TC_result.png"), 
+          caption: "Improved 0-75m acceleration time by 0.35 seconds (4.64s -> 4.29s)."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/TCTV_TV.png"), 
+          caption: "Torque vectoring controller in MATLAB/Simulink."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/TCTV_TV_result.png"), 
+          caption: "Improved trajectory tracking during cornering compared to non-TV vehicles."
+        },
+      ]
+    },
+    {
+      title: "Handsome Yoga – Real-Time AI Pose Guidance",
+      subtitle: "2024, Course Project, Robot Vision",
+      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      image: require("./assets/images/Yoga_cover.png"), // Update with: Yoga App Screenshot [cite: 284]
+      descriptionSections: [
+        {
+          heading: "Goal:",
+          points: [
+            "Recognize yoga poses in real-time via webcam.",
+            "Provide immediate corrective feedback to users."
+          ]
+        },
+        {
+          heading: "Implementation:",
+          points: [
+            "Utilized MediaPipe for extracting 3D body landmarks.",
+            "Trained an MLP classifier to identify poses (Warrior II, III, Triangle, Tree, Standing).",
+            "Built a PyQt5 interface to display live feedback based on joint angle analysis."
+          ]
+        },
+        {
+          heading: "Outcome:",
+          points: [
+            "Achieved smooth performance (28-30 FPS).",
+            "97% Classification Accuracy with robust recognition."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/Yoga_matrix.png"),
+          caption: "Confusion matrix illustrating high classification accuracy across five yoga poses."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/Yoga_UI.png"),
+          caption: "Handsome Yoga: Real-time pose recognition and corrective feedback UI."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/RBnNu08OnBw", // Video from PDF
+          caption: "Demo Video: Handsome Yoga."
+        },
+      ]
+    },
+    {
+      title: "Autonomous Wafer Handling Robot",
+      subtitle: "2024, Electromechanical Principles Course",
+      summary: "Designed a robot mechanism for smooth wafer pickup, obstacle avoidance, and precise placement.",
+      image: require("./assets/images/Wafer_cover.png"), // Update with: Wafer Robot Image 
+      descriptionSections: [
+        {
+          heading: "Features:",
+          points: [
+            "Lifting mechanism designed to minimize acceleration for stable transport.",
+            "Webcam-based QR code reading for auto-alignment.",
+            "IR sensors for obstacle detection."
+          ]
+        },
+        {
+          heading: "Control:",
+          points: [
+            "System controlled by myRIO and LabVIEW.",
+            "Integrated vision and motor control for autonomous operation."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/WwzgNZalHHc", // Video from PDF
+          caption: "Project Demo: Autonomous Wafer Handling."
+        }
+      ]
+    },
+    {
+      title: "Backflipping Mechanical Cat Robot",
+      subtitle: "2023, MakeNTU Hackathon Project",
+      summary: "A spring-powered robot designed to perform a backflip, built within 30 hours.",
+      image: require("./assets/images/Cat_cover.jpg"), // Update with: Cat Robot Image [cite: 368]
+      descriptionSections: [
+        {
+          heading: "Challenge:",
+          points: [
+            "Design and build a robot capable of backflipping within a 30-hour hackathon timeframe."
+          ]
+        },
+        {
+          heading: "Mechanism:",
+          points: [
+            "Designed a cam mechanism to slowly compress a spring and release energy instantaneously.",
+            "Used Arduino to synchronize servo motors and limit switches for the jumping sequence."
+          ]
+        },
+        {
+          heading: "Result:",
+          points: [
+            "Successfully achieved a mechanical backflip.",
+            "Won the Best Popularity Award."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/Cat_cover.jpg"),
+          caption: "Backflipping Mechanical Cat Robot prototype with spring–cam jumping mechanism."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/nl-BKUGqzY8", 
+          caption: "Video Demo: Mechanical design of the leg."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/0bbO0pl9IqM", 
+          caption: "Video Demo: Backflip demonstration."
+        },
+      ]
+    }
+  ]
+};
+
+const isHireable = true; // Set to true since you are a student/intern
 
 export {
   illustration,
@@ -403,5 +603,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  customProjects
 };
