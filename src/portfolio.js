@@ -539,7 +539,7 @@ const customProjects = {
       title: "Backflipping Mechanical Cat Robot",
       subtitle: "2023, MakeNTU Hackathon Project",
       summary: "A spring-powered robot designed to perform a backflip, built within 30 hours.",
-      image: require("./assets/images/Cat_cover.jpg"),
+      image: require("./assets/images/Cat_cover.png"),
       descriptionSections: [
         {
           heading: "Challenge:",
@@ -565,7 +565,7 @@ const customProjects = {
       slides: [
         {
           type: "image",
-          src: require("./assets/images/Cat_cover.jpg"),
+          src: require("./assets/images/Cat_cover.png"),
           caption: "Backflipping Mechanical Cat Robot prototype with spring–cam jumping mechanism."
         },
         {
