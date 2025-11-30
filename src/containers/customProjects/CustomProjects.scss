@@ -460,9 +460,9 @@
 
 @media (max-width: 768px) {
   #custom-projects {
-    opacity: 1 !important;       // 強制不透明
-    transform: none !important;  // 強制移除位移 (防止卡在一半的位置)
+    opacity: 1 !important; // 強制不透明
+    transform: none !important; // 強制移除位移 (防止卡在一半的位置)
     visibility: visible !important;
-    animation: none !important;  // 移除任何可能的 CSS 動畫
+    animation: none !important; // 移除任何可能的 CSS 動畫
   }
 }
