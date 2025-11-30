@@ -145,7 +145,7 @@ const workExperiences = {
     {
       role: "Undergraduate Researcher",
       company: "Bio-inspired Robotics Laboratory",
-      companylogo: require("./assets/images/biorolaLogo.jpg"), // Update logo
+      companylogo: require("./assets/images/biorolaLogo.png"), // Update logo
       date: "June 2023 – October 2025",
       desc: "Advisor: Prof. Pei-Chun Lin",
       descBullets: [
