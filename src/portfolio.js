@@ -579,7 +579,35 @@ const customProjects = {
           caption: "Video Demo: Backflip demonstration."
         },
       ]
-    }
+    },
+    {
+      title: "NTU ME International Compass",
+      subtitle: "2025, Extracurricular Project",
+      summary: "Led a student organization to build a web platform and mentorship program for students applying to graduate schools abroad.",
+      image: require("./assets/images/NTUMEIC.jpg"),
+      descriptionSections: [
+        {
+          heading: "Key Contributions:",
+          points: [
+            'Interviewed alumni studying abroad and published <a href="https://ntumeic.onrender.com/articles" target="_blank" rel="noopener noreferrer">articles</a>, improving graduate-school information access for all NTU ME students.',
+            'Built the <a href="https://ntumeic.onrender.com/" target="_blank" rel="noopener noreferrer">web platform and database</a> to organize graduate school information.',
+            "Led a mentor program that connected overseas alumni with prospective graduate-school applicants, resulting in over 10 successful matches.",
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/NTUMEIC.jpg"),
+          caption: "Group photo from the alumni sharing session on U.S. graduate study and career experiences, with over 80 participants."
+        },
+        {
+          type: "image",
+          src: require("./assets/images/NTUMEIC_Chiu.jpg"),
+          caption: "Guest lecture by Professor George Chiu (Purdue University) on graduate admissions and study at Purdue, attended by over 80 participants."
+        },
+      ]
+    },
   ]
 };
 

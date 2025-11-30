@@ -261,6 +261,17 @@
     font-size: 17px;
     color: #444;
     .dark-mode & { color: #ccc; }
+
+    a {
+      color: $buttonColor; // 使用你的主題按鈕顏色
+      text-decoration: underline;
+      font-weight: 600; // 讓連結稍微突出
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: $buttonHover; // 滑鼠懸停時的顏色
+      }
+    }
   }
 
   .media-block { width: 100%; margin-top: 20px; }

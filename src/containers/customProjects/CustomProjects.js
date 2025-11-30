@@ -117,7 +117,13 @@ function ProjectDetailView({ project, isDark }) {
               <div key={idx} className="sp-section">
                 <span className="sp-heading">{section.heading}</span>
                 <ul className="sp-points">
-                  {section.points.map((point, pIdx) => <li key={pIdx}>{point}</li>)}
+                  {section.points.map((point, pIdx) => (
+                    <li 
+                      key={pIdx}
+                      // 使用 dangerouslySetInnerHTML 來渲染 HTML
+                      dangerouslySetInnerHTML={{ __html: point }} 
+                    />
+                  ))}
                 </ul>
               </div>
             ))}
