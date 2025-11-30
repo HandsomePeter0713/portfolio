@@ -272,8 +272,8 @@ const twitterDetails = {
 
 const customProjects = {
   display: true,
-  title: "Academic & Tech Projects",
-  subtitle: "ROBOTICS, AUTOMATION & SOFTWARE DEVELOPMENT",
+  title: "Projects",
+  subtitle: "ROBOTICS, AUTOMATION <br>& SOFTWARE DEVELOPMENT",
   projects: [
     {
       title: "Dual-Mode Spherical Robot (Mosphero)",

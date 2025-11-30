@@ -303,7 +303,7 @@
     }
 
     a {
-      color: $buttonColor; // 使用你的主題按鈕顏色
+      color: $buttonHover; // 使用你的主題按鈕顏色
       text-decoration: underline;
       font-weight: 600; // 讓連結稍微突出
       transition: color 0.2s ease-in-out;
@@ -455,5 +455,14 @@
   }
   .project-image-div {
     height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  #custom-projects {
+    opacity: 1 !important;       // 強制不透明
+    transform: none !important;  // 強制移除位移 (防止卡在一半的位置)
+    visibility: visible !important;
+    animation: none !important;  // 移除任何可能的 CSS 動畫
   }
 }
