@@ -273,7 +273,7 @@ const twitterDetails = {
 const customProjects = {
   display: true,
   title: "Projects",
-  subtitle: "ROBOTICS, AUTOMATION <br>& SOFTWARE DEVELOPMENT",
+  subtitle: "ROBOTICS, AUTOMATION & SOFTWARE DEVELOPMENT",
   projects: [
     {
       title: "Dual-Mode Spherical Robot (Mosphero)",

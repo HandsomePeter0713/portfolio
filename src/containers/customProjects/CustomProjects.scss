@@ -4,14 +4,14 @@
 .custom-project-main-div {
   // 模仿 Experience 的容器設定
   // 這裡不設固定寬度，讓它自然撐開，但保持兩側基本的 padding
-  padding: 0px;
+  padding: 0px 0px;
   margin: 0px auto;
   width: 100%; // 佔滿父層寬度
   box-sizing: border-box;
 }
 
 .custom-project-header {
-  padding-left: 10px; // 稍微對齊卡片邊緣
+  padding-left: 0px; // 稍微對齊卡片邊緣
   margin-bottom: 30px;
   text-align: left;
 }
@@ -47,8 +47,8 @@
 .custom-project-cards-div {
   display: grid;
   // 這裡讓卡片自動填滿，最小 350px，如果螢幕夠寬會並排
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 4rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 4.7rem 1rem;
 }
 
 // --- 3. 卡片樣式 (全新命名，與原版隔離) ---
@@ -72,7 +72,7 @@
 
   &.dark-mode {
     background-color: #171c28;
-    border: 1px solid #2a2f3a;
+    border: 1px solid $lightBorder1;
     &:hover {
       box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
     }
