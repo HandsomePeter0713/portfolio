@@ -100,7 +100,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "National Taiwan University (NTU)",
-      logo: require("./assets/images/ntuLogo.jpg"), // Update with NTU logo if available
+      logo: require("./assets/images/ntuLogo.png"), // Update with NTU logo if available
       subHeader:
         "B.S. in Mechanical Engineering, minor in Computer Science and Information Engineering",
       duration: "September 2021 - January 2026",
@@ -194,7 +194,7 @@ const achievementSection = {
       title: "First Prize, MechaHeroes 2024",
       subtitle:
         "Awarded for the research and design of the 2-DOF spherical robot (Mosphero).",
-      image: require("./assets/images/MechaHeroes.jpg"), // Update Image
+      image: require("./assets/images/MechaHeroes.png"), // Update Image
       imageAlt: "MechaHeroes Award",
       footerLink: []
     },
@@ -202,7 +202,7 @@ const achievementSection = {
       title: "FSAE Japan 2025",
       subtitle:
         "Overall 11/25 in EV Class. Won Sportsmanship Award & JAMA Chairman Award.",
-      image: require("./assets/images/NTUR_award.jpg"), // Update Image
+      image: require("./assets/images/NTUR_award.png"), // Update Image
       imageAlt: "FSAE Award",
       footerLink: []
     },
@@ -210,7 +210,7 @@ const achievementSection = {
       title: "Best Popularity Award",
       subtitle:
         '2023 MakeNTU Hackathon for the "Backflipping Mechanical Cat Robot".',
-      image: require("./assets/images/Cat_award.jpg"), // Update Image
+      image: require("./assets/images/Cat_award.png"), // Update Image
       imageAlt: "MakeNTU Award",
       footerLink: []
     }
@@ -280,7 +280,7 @@ const customProjects = {
       subtitle: "2023-2025, Bio-inspired Robotics Lab, NTU",
       summary:
         "A novel spherical robot using a differential drive mechanism to achieve omnidirectional rolling and terrain escape capabilities.",
-      image: require("./assets/images/1_actual_robot.jpg"),
+      image: require("./assets/images/1_actual_robot.png"),
       descriptionSections: [
         {
           heading: "Project Goals:",
@@ -357,7 +357,7 @@ const customProjects = {
       subtitle: "2022-Present, NTU Racing Formula SAE",
       summary:
         "Designed and optimized three generations of planetary reduction gearboxes for an electric racing car.",
-      image: require("./assets/images/NTUR_cover.jpg"),
+      image: require("./assets/images/NTUR_cover.png"),
       descriptionSections: [
         {
           heading: "Key Achievements:",
@@ -390,7 +390,7 @@ const customProjects = {
         },
         {
           type: "image",
-          src: require("./assets/images/NTUR_ansys.jpg"),
+          src: require("./assets/images/NTUR_ansys.png"),
           caption: "Simulating the carrier of the gearbox in ANSYS."
         },
         {
@@ -401,7 +401,7 @@ const customProjects = {
         },
         {
           type: "image",
-          src: require("./assets/images/NTUR_car.jpg"),
+          src: require("./assets/images/NTUR_car.png"),
           caption: "Our race car on the FSAE Japan 2025 circuit."
         },
         {
@@ -598,7 +598,7 @@ const customProjects = {
       subtitle: "2025, Extracurricular Project",
       summary:
         "Led a student organization to build a web platform and mentorship program for students applying to graduate schools abroad.",
-      image: require("./assets/images/NTUMEIC.jpg"),
+      image: require("./assets/images/NTUMEIC.png"),
       descriptionSections: [
         {
           heading: "Key Contributions:",
@@ -612,13 +612,13 @@ const customProjects = {
       slides: [
         {
           type: "image",
-          src: require("./assets/images/NTUMEIC.jpg"),
+          src: require("./assets/images/NTUMEIC.png"),
           caption:
             "Group photo from the alumni sharing session on U.S. graduate study and career experiences, with over 80 participants."
         },
         {
           type: "image",
-          src: require("./assets/images/NTUMEIC_Chiu.jpg"),
+          src: require("./assets/images/NTUMEIC_Chiu.png"),
           caption:
             "Guest lecture by Professor George Chiu (Purdue University) on graduate admissions and study at Purdue, attended by over 80 participants."
         }

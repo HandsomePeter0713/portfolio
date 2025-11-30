@@ -165,7 +165,7 @@ function ProjectDetailView({project, isDark}) {
         <div className="media-block">
           {project.slides && project.slides.length > 0 && (
             <div className="sp-slider">
-              <div className="slider-frame">
+              <div className={`slider-frame ${isDark ? "dark-mode" : ""}`}>
                 {project.slides.length > 1 && (
                   <button className="slider-btn prev" onClick={prevSlide}>
                     &#10094;
