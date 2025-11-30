@@ -11,7 +11,7 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  educationInfo,
+  educationInfo
   // resumeSection
 } from "../../portfolio";
 

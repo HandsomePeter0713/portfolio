@@ -392,7 +392,8 @@ const customProjects = {
     {
       title: "Handsome Yoga – Real-Time AI Pose Guidance System",
       subtitle: "2024, Course Project, Robot Vision, NTU",
-      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      summary:
+        "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
       image: require("./assets/images/airbnbLogo.png"),
       descriptionSections: [
         {
@@ -438,7 +439,8 @@ const customProjects = {
     {
       title: "Handsome Yoga – Real-Time AI Pose Guidance System",
       subtitle: "2024, Course Project, Robot Vision, NTU",
-      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      summary:
+        "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
       image: require("./assets/images/airbnbLogo.png"),
       descriptionSections: [
         {
@@ -479,98 +481,12 @@ const customProjects = {
           caption: "Demo Video: Real-time system in action."
         }
       ]
-    },{
+    },
+    {
       title: "Handsome Yoga – Real-Time AI Pose Guidance System",
       subtitle: "2024, Course Project, Robot Vision, NTU",
-      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
-      image: require("./assets/images/airbnbLogo.png"),
-      descriptionSections: [
-        {
-          heading: "Goals:",
-          points: [
-            "Recognize yoga poses in real time",
-            "Provide corrective feedback to improve safety and accuracy"
-          ]
-        },
-        {
-          heading: "Methods:",
-          points: [
-            "Used MediaPipe to extract body landmarks from webcam",
-            "Trained an MLP classifier (with a Standing class) to identify four yoga poses",
-            "Calculated joint angles and compared them with statistical ideal ranges using IQR filtering",
-            "Built a PyQt5 interface to show live pose results and simple corrective messages"
-          ]
-        },
-        {
-          heading: "Results:",
-          points: [
-            "Achieved smooth real-time performance (28–30 FPS)",
-            "Reached 97% accuracy in pose classification",
-            "Demonstrated robust recognition across four yoga poses"
-          ]
-        }
-      ],
-      // 這裡放圖片或影片連結
-      slides: [
-        {
-          type: "image",
-          src: require("./assets/images/airbnbLogo.png"), // 記得把圖片放入 src/assets/images/
-          caption: "Figure 1: Yoga Pose Confusion Matrix showing high accuracy."
-        },
-        {
-          type: "video",
-          src: "https://www.youtube.com/embed/RBnNu08OnBw", // 使用 embed 連結https://youtu.be/RBnNu08OnBw
-          caption: "Demo Video: Real-time system in actioaaa."
-        }
-      ]
-    },{
-      title: "Handsome Yoga – Real-Time AI Pose Guidance System",
-      subtitle: "2024, Course Project, Robot Vision, NTU",
-      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
-      image: require("./assets/images/airbnbLogo.png"),
-      descriptionSections: [
-        {
-          heading: "Goals:",
-          points: [
-            "Recognize yoga poses in real time",
-            "Provide corrective feedback to improve safety and accuracy"
-          ]
-        },
-        {
-          heading: "Methods:",
-          points: [
-            "Used MediaPipe to extract body landmarks from webcam",
-            "Trained an MLP classifier (with a Standing class) to identify four yoga poses",
-            "Calculated joint angles and compared them with statistical ideal ranges using IQR filtering",
-            "Built a PyQt5 interface to show live pose results and simple corrective messages"
-          ]
-        },
-        {
-          heading: "Results:",
-          points: [
-            "Achieved smooth real-time performance (28–30 FPS)",
-            "Reached 97% accuracy in pose classification",
-            "Demonstrated robust recognition across four yoga poses"
-          ]
-        }
-      ],
-      // 這裡放圖片或影片連結
-      slides: [
-        {
-          type: "image",
-          src: require("./assets/images/airbnbLogo.png"), // 記得把圖片放入 src/assets/images/
-          caption: "Figure 1: Yoga Pose Confusion Matrix showing high accuracy."
-        },
-        {
-          type: "video",
-          src: "https://www.youtube.com/embed/RBnNu08OnBw", // 使用 embed 連結https://youtu.be/RBnNu08OnBw
-          caption: "Demo Video: Real-time system in actioaaa."
-        }
-      ]
-    },{
-      title: "Handsome Yoga – Real-Time AI Pose Guidance System",
-      subtitle: "2024, Course Project, Robot Vision, NTU",
-      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      summary:
+        "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
       image: require("./assets/images/airbnbLogo.png"),
       descriptionSections: [
         {
@@ -612,6 +528,98 @@ const customProjects = {
         }
       ]
     },
+    {
+      title: "Handsome Yoga – Real-Time AI Pose Guidance System",
+      subtitle: "2024, Course Project, Robot Vision, NTU",
+      summary:
+        "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      image: require("./assets/images/airbnbLogo.png"),
+      descriptionSections: [
+        {
+          heading: "Goals:",
+          points: [
+            "Recognize yoga poses in real time",
+            "Provide corrective feedback to improve safety and accuracy"
+          ]
+        },
+        {
+          heading: "Methods:",
+          points: [
+            "Used MediaPipe to extract body landmarks from webcam",
+            "Trained an MLP classifier (with a Standing class) to identify four yoga poses",
+            "Calculated joint angles and compared them with statistical ideal ranges using IQR filtering",
+            "Built a PyQt5 interface to show live pose results and simple corrective messages"
+          ]
+        },
+        {
+          heading: "Results:",
+          points: [
+            "Achieved smooth real-time performance (28–30 FPS)",
+            "Reached 97% accuracy in pose classification",
+            "Demonstrated robust recognition across four yoga poses"
+          ]
+        }
+      ],
+      // 這裡放圖片或影片連結
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/airbnbLogo.png"), // 記得把圖片放入 src/assets/images/
+          caption: "Figure 1: Yoga Pose Confusion Matrix showing high accuracy."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/RBnNu08OnBw", // 使用 embed 連結https://youtu.be/RBnNu08OnBw
+          caption: "Demo Video: Real-time system in actioaaa."
+        }
+      ]
+    },
+    {
+      title: "Handsome Yoga – Real-Time AI Pose Guidance System",
+      subtitle: "2024, Course Project, Robot Vision, NTU",
+      summary:
+        "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      image: require("./assets/images/airbnbLogo.png"),
+      descriptionSections: [
+        {
+          heading: "Goals:",
+          points: [
+            "Recognize yoga poses in real time",
+            "Provide corrective feedback to improve safety and accuracy"
+          ]
+        },
+        {
+          heading: "Methods:",
+          points: [
+            "Used MediaPipe to extract body landmarks from webcam",
+            "Trained an MLP classifier (with a Standing class) to identify four yoga poses",
+            "Calculated joint angles and compared them with statistical ideal ranges using IQR filtering",
+            "Built a PyQt5 interface to show live pose results and simple corrective messages"
+          ]
+        },
+        {
+          heading: "Results:",
+          points: [
+            "Achieved smooth real-time performance (28–30 FPS)",
+            "Reached 97% accuracy in pose classification",
+            "Demonstrated robust recognition across four yoga poses"
+          ]
+        }
+      ],
+      // 這裡放圖片或影片連結
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/airbnbLogo.png"), // 記得把圖片放入 src/assets/images/
+          caption: "Figure 1: Yoga Pose Confusion Matrix showing high accuracy."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/RBnNu08OnBw", // 使用 embed 連結https://youtu.be/RBnNu08OnBw
+          caption: "Demo Video: Real-time system in actioaaa."
+        }
+      ]
+    }
   ]
 };
 

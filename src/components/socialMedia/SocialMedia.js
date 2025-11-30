@@ -8,7 +8,6 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -32,7 +31,7 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-      
+
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}

@@ -2,13 +2,13 @@
 
 import React from "react";
 import "./PublicationCard.scss";
-import { myName } from "../../portfolio";
-import { Fade, Slide } from "react-reveal";
+import {myName} from "../../portfolio";
+import {Fade, Slide} from "react-reveal";
 
 // 處理作者名字粗體的輔助函式 (和之前一樣)
-const FormatAuthors = ({ authors }) => {
+const FormatAuthors = ({authors}) => {
   if (!authors) return null;
-  const parts = authors.split(new RegExp(`(${myName})`, 'gi'));
+  const parts = authors.split(new RegExp(`(${myName})`, "gi"));
   return (
     <span>
       {parts.map((part, index) =>
@@ -22,7 +22,7 @@ const FormatAuthors = ({ authors }) => {
   );
 };
 
-export default function PublicationCard({ paper }) {
+export default function PublicationCard({paper}) {
   return (
     <div>
       <Fade left duration={1000}>
@@ -30,7 +30,12 @@ export default function PublicationCard({ paper }) {
           <p className="publication-text">
             <FormatAuthors authors={paper.authors} />
 
-            <a href={paper.link || "#"} target="_blank" rel="noopener noreferrer" className="publication-title">
+            <a
+              href={paper.link || "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="publication-title"
+            >
               "{paper.title},"
             </a>
             <em className="publication-journal"> {paper.journal}</em>
@@ -40,9 +45,11 @@ export default function PublicationCard({ paper }) {
             {paper.date && `, ${paper.date}.`}
 
             {paper.authorNote && (
-              <span className="publication-author-note"> {paper.authorNote}</span>
+              <span className="publication-author-note">
+                {" "}
+                {paper.authorNote}
+              </span>
             )}
-
           </p>
         </div>
       </Fade>

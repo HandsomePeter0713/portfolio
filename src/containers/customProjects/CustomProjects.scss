@@ -4,7 +4,7 @@
 .custom-project-main-div {
   // 模仿 Experience 的容器設定
   // 這裡不設固定寬度，讓它自然撐開，但保持兩側基本的 padding
-  padding: 0px; 
+  padding: 0px;
   margin: 0px auto;
   width: 100%; // 佔滿父層寬度
   box-sizing: border-box;
@@ -21,18 +21,26 @@
   font-weight: 400;
   line-height: normal;
   margin: 0px;
-  
+
   // RWD
-  @media (max-width: 1380px) { font-size: 40px; }
-  @media (max-width: 768px) { font-size: 30px; text-align: center; }
+  @media (max-width: 1380px) {
+    font-size: 40px;
+  }
+  @media (max-width: 768px) {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
 .custom-project-subtitle {
   text-transform: uppercase;
   margin: 0px;
   color: $subTitle;
-  
-  @media (max-width: 768px) { font-size: 16px; text-align: center; }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 // --- 2. 卡片網格 ---
@@ -61,7 +69,7 @@
     box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
     transform: translateY(-5px);
   }
-  
+
   &.dark-mode {
     background-color: #171c28;
     border: 1px solid #2a2f3a;
@@ -81,7 +89,7 @@
   margin-bottom: 20px;
   border-radius: 8px;
   background-color: #f0f0f0; // 圖片載入前的背景色
-  
+
   .card-image {
     width: 100%;
     height: 100%;
@@ -101,7 +109,9 @@
   line-height: 1.2;
   font-weight: 700;
   margin: 0 0 10px 0;
-  .dark-mode & { color: #fff; }
+  .dark-mode & {
+    color: #fff;
+  }
 }
 
 .card-subtitle {
@@ -109,7 +119,9 @@
   font-size: 1.2rem;
   line-height: 1.5rem;
   margin-bottom: 15px;
-  .dark-mode & { color: #888; }
+  .dark-mode & {
+    color: #888;
+  }
 }
 
 .card-summary {
@@ -122,7 +134,9 @@
   line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  .dark-mode & { color: #ccc; }
+  .dark-mode & {
+    color: #ccc;
+  }
 }
 
 .custom-project-card-footer {
@@ -149,7 +163,7 @@
 
   &:hover {
     background: $buttonHover;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -177,7 +191,7 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 50px 100px rgba(0,0,0,0.3);
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.3);
   animation: modalFadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   &.dark-mode {
@@ -188,8 +202,14 @@
 }
 
 @keyframes modalFadeIn {
-  from { opacity: 0; transform: scale(0.95) translateY(20px); }
-  to { opacity: 1; transform: scale(1) translateY(0); }
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .modal-close-btn {
@@ -204,15 +224,22 @@
   z-index: 20;
   line-height: 1;
   transition: 0.2s;
-  &:hover { color: #333; transform: scale(1.1); }
-  .dark-mode & { &:hover { color: #fff; } }
+  &:hover {
+    color: #333;
+    transform: scale(1.1);
+  }
+  .dark-mode & {
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 // 詳細內容視圖
 .modal-scroll-container {
   height: 100%;
   overflow-y: auto;
-  padding: 0; 
+  padding: 0;
   scroll-behavior: smooth;
 }
 
@@ -222,18 +249,22 @@
   padding: 0px 50px 40px 50px;
   box-sizing: border-box;
 
-  .content-block { margin-bottom: 30px; }
+  .content-block {
+    margin-bottom: 30px;
+  }
 
   .sp-title {
-    font-size: 42px; 
+    font-size: 42px;
     font-weight: 400; // 配合標題
     margin-bottom: 10px;
     padding-right: 50px;
     line-height: 1.2;
     color: $titleColor; // 使用變數
-    .dark-mode & { color: #fff; }
+    .dark-mode & {
+      color: #fff;
+    }
   }
-  
+
   .sp-subtitle {
     font-size: 20px;
     color: $subTitle; // 使用變數
@@ -241,18 +272,25 @@
     display: block;
     border-bottom: 1px solid #eee;
     padding-bottom: 15px;
-    .dark-mode & { color: #aaa; border-color: #333; }
+    .dark-mode & {
+      color: #aaa;
+      border-color: #333;
+    }
   }
 
-  .sp-section { margin-bottom: 25px; }
-  
+  .sp-section {
+    margin-bottom: 25px;
+  }
+
   .sp-heading {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 10px;
     display: block;
     color: $titleColor;
-    .dark-mode & { color: #ddd; }
+    .dark-mode & {
+      color: #ddd;
+    }
   }
 
   .sp-points li {
@@ -260,7 +298,9 @@
     line-height: 1.6;
     font-size: 17px;
     color: #444;
-    .dark-mode & { color: #ccc; }
+    .dark-mode & {
+      color: #ccc;
+    }
 
     a {
       color: $buttonColor; // 使用你的主題按鈕顏色
@@ -274,9 +314,16 @@
     }
   }
 
-  .media-block { width: 100%; margin-top: 20px; }
+  .media-block {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-  .sp-slider { width: 100%; position: relative; overflow: visible; }
+  .sp-slider {
+    width: 100%;
+    position: relative;
+    overflow: visible;
+  }
 
   .slider-frame {
     /* --- 核心：定義容器的形狀和尺寸 --- */
@@ -285,8 +332,8 @@
 
     /* --- 輔助：限制最大尺寸和置中 --- */
     max-width: 1200px; // 例如，最寬不超過 1200px
-    max-height: 80vh;   // 最高不超過螢幕高度的 80%
-    margin: 0 auto;     // 當寬度沒有達到 100% 時，讓容器本身水平置中
+    max-height: 80vh; // 最高不超過螢幕高度的 80%
+    margin: 0 auto; // 當寬度沒有達到 100% 時，讓容器本身水平置中
 
     /* --- 內部對齊：讓圖片在容器內置中 --- */
     display: flex;
@@ -307,9 +354,14 @@
     max-height: 100%;
 
     /* 核心：這會自動處理所有縮放，確保圖片完整顯示不裁切 */
-    object-fit: scale-down; 
-    display: block; 
-    &.video { position: absolute; top: 0; left: 0; border: none; }
+    object-fit: scale-down;
+    display: block;
+    &.video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: none;
+    }
   }
 
   .media-content.video {
@@ -321,47 +373,83 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     border: none;
     color: #000;
     font-size: 20px;
     padding: 0;
     cursor: pointer;
     border-radius: 50%;
-    width: 44px; height: 44px;
-    display: flex; align-items: center; justify-content: center;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 5;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: 0.2s;
-    &:hover { transform: translateY(-50%) scale(1.1); }
-    &.prev { left: 20px; }
-    &.next { right: 20px; }
+    &:hover {
+      transform: translateY(-50%) scale(1.1);
+    }
+    &.prev {
+      left: 20px;
+    }
+    &.next {
+      right: 20px;
+    }
   }
 
   .sp-caption {
-    display: block; width: 100%; text-align: center;
-    margin-top: 20px; margin-bottom: 0;
-    font-size: 16px; color: $subTitle; font-weight: 500; font-style: italic;
-    .dark-mode & { color: #bbb; }
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: $subTitle;
+    font-weight: 500;
+    font-style: italic;
+    .dark-mode & {
+      color: #bbb;
+    }
   }
-  
+
   .slider-dots {
-    display: flex; justify-content: center; gap: 10px; margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
     .dot {
-      width: 10px; height: 10px; background-color: #ddd; border-radius: 50%; cursor: pointer;
-      &.active { background-color: #555; }
+      width: 10px;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 50%;
+      cursor: pointer;
+      &.active {
+        background-color: #555;
+      }
     }
   }
 }
 
 // RWD
 @media (max-width: 768px) {
-  .project-modal-content { height: 95vh; }
-  .vertical-project-view { padding: 30px 20px 40px 20px; }
-  .sp-title { font-size: 28px; padding-right: 0; margin-top: 20px; }
-  .slider-frame { 
+  .project-modal-content {
+    height: 95vh;
+  }
+  .vertical-project-view {
+    padding: 30px 20px 40px 20px;
+  }
+  .sp-title {
+    font-size: 28px;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+  .slider-frame {
     // aspect-ratio: 4 / 3;
     max-height: 45vh;
-  } 
-  .project-image-div { height: 180px; }
+  }
+  .project-image-div {
+    height: 180px;
+  }
 }

@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Mechanical Engineering student and Robotics Enthusiast 🚀. Experienced in mechatronics, control systems, and full-stack development. I love building robots that move in unique ways!"
   ),
-  resumeLink:
-    "#", 
+  resumeLink: "#",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,9 +51,7 @@ const skillsSection = {
     emoji(
       "⚡ Designing complex mechanisms and robotic systems using advanced CAD tools"
     ),
-    emoji(
-      "⚡ Developing control algorithms and simulations in Simulink"
-    ),
+    emoji("⚡ Developing control algorithms and simulations in Simulink"),
     emoji(
       "⚡ Integrating electromechanical systems with microcontrollers and AI vision"
     )
@@ -104,7 +101,8 @@ const educationInfo = {
     {
       schoolName: "National Taiwan University (NTU)",
       logo: require("./assets/images/ntuLogo.jpg"), // Update with NTU logo if available
-      subHeader: "B.S. in Mechanical Engineering, minor in Computer Science and Information Engineering",
+      subHeader:
+        "B.S. in Mechanical Engineering, minor in Computer Science and Information Engineering",
       duration: "September 2021 - January 2026",
       desc: "Overall GPA: 4.14/4.3 | Ranking: 7/210 (Top 3%)",
       descBullets: [
@@ -149,7 +147,7 @@ const workExperiences = {
       date: "June 2023 – October 2025",
       desc: "Advisor: Prof. Pei-Chun Lin",
       descBullets: [
-        "Developed \"Mosphero\", a dual-mode spherical robot with a differential drive mechanism.",
+        'Developed "Mosphero", a dual-mode spherical robot with a differential drive mechanism.',
         "Built dynamic models in MATLAB/Simulink and validated them through experiments.",
         "Implemented angular velocity control (reduced IAE by 87.1%) and impulsive momentum control (shortened escape time on deformable terrain by 7.4x)."
       ]
@@ -164,7 +162,7 @@ const workExperiences = {
         "Built the company's first active-pedal prototype, benchmarking commercial systems for force-feedback performance.",
         "Designed a force-sensing mechanism with load cells and integrated a PID controller on linear actuators for adjustable pedal resistance."
       ]
-    },
+    }
   ]
 };
 
@@ -189,8 +187,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Awards & Honors 🏆 "),
-  subtitle:
-    "Recognition for competitions.",
+  subtitle: "Recognition for competitions.",
 
   achievementsCards: [
     {
@@ -211,7 +208,8 @@ const achievementSection = {
     },
     {
       title: "Best Popularity Award",
-      subtitle: "2023 MakeNTU Hackathon for the \"Backflipping Mechanical Cat Robot\".",
+      subtitle:
+        '2023 MakeNTU Hackathon for the "Backflipping Mechanical Cat Robot".',
       image: require("./assets/images/Cat_award.jpg"), // Update Image
       imageAlt: "MakeNTU Award",
       footerLink: []
@@ -225,9 +223,9 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle: "",
-  displayMediumBlogs: "false", 
+  displayMediumBlogs: "false",
   blogs: [],
-  display: false 
+  display: false
 };
 
 // Talks Sections
@@ -236,7 +234,7 @@ const talkSection = {
   title: "TALKS",
   subtitle: "",
   talks: [],
-  display: false 
+  display: false
 };
 
 // Podcast Section
@@ -245,7 +243,7 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "",
   podcast: [],
-  display: false 
+  display: false
 };
 
 // Resume Section
@@ -266,8 +264,8 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", 
-  display: false 
+  userName: "twitter",
+  display: false
 };
 
 // My Custom Project Section
@@ -280,8 +278,9 @@ const customProjects = {
     {
       title: "Dual-Mode Spherical Robot (Mosphero)",
       subtitle: "2023-2025, Bio-inspired Robotics Lab, NTU",
-      summary: "A novel spherical robot using a differential drive mechanism to achieve omnidirectional rolling and terrain escape capabilities.",
-      image: require("./assets/images/1_actual_robot.jpg"), 
+      summary:
+        "A novel spherical robot using a differential drive mechanism to achieve omnidirectional rolling and terrain escape capabilities.",
+      image: require("./assets/images/1_actual_robot.jpg"),
       descriptionSections: [
         {
           heading: "Project Goals:",
@@ -311,51 +310,54 @@ const customProjects = {
       slides: [
         {
           type: "image",
-          src: require("./assets/images/1_actual_robot.png"), 
+          src: require("./assets/images/1_actual_robot.png"),
           caption: "The Dual-Mode Spherical Robot (Mosphero)."
         },
         {
           type: "image",
-          src: require("./assets/images/2_a_cad.png"), 
+          src: require("./assets/images/2_a_cad.png"),
           caption: "The differential drive mechanism in the robot."
         },
         {
           type: "image",
-          src: require("./assets/images/2_b_hardware_block_diagram.png"), 
+          src: require("./assets/images/2_b_hardware_block_diagram.png"),
           caption: "The hardware architecture of the robot."
         },
         {
           type: "image",
-          src: require("./assets/images/3_dynamic.png"), 
+          src: require("./assets/images/3_dynamic.png"),
           caption: "The dynamic equation derived with the Lagrangian method."
         },
         {
           type: "image",
-          src: require("./assets/images/5_b_angular_velocity.png"), 
+          src: require("./assets/images/5_b_angular_velocity.png"),
           caption: "The angular velocity controller vs open-loop controller."
         },
         {
           type: "image",
-          src: require("./assets/images/5_b_control.png"), 
-          caption: "The result of the angular velocity controller in different reference velocity."
+          src: require("./assets/images/5_b_control.png"),
+          caption:
+            "The result of the angular velocity controller in different reference velocity."
         },
         {
           type: "image",
           src: require("./assets/images/5_c_momentum.png"),
-          caption: "The impulsive momentum controller decrease the time to leave the terrain."
+          caption:
+            "The impulsive momentum controller decrease the time to leave the terrain."
         },
         {
           type: "video",
-          src: "https://www.youtube.com/embed/RmHryG-aZJY", 
+          src: "https://www.youtube.com/embed/RmHryG-aZJY",
           caption: "Demo Video: Mosphero."
-        },
+        }
       ]
     },
     {
       title: "Hub Motor Gearbox Development",
       subtitle: "2022-Present, NTU Racing Formula SAE",
-      summary: "Designed and optimized three generations of planetary reduction gearboxes for an electric racing car.",
-      image: require("./assets/images/NTUR_cover.jpg"), 
+      summary:
+        "Designed and optimized three generations of planetary reduction gearboxes for an electric racing car.",
+      image: require("./assets/images/NTUR_cover.jpg"),
       descriptionSections: [
         {
           heading: "Key Achievements:",
@@ -371,48 +373,50 @@ const customProjects = {
             "FSAE Japan 2025 - Overall 11/25 (EV Class)",
             "FSAE Japan 2025 - Sportsmanship Award & JAMA Chairman Award",
             "Formula Student Taiwan 2025 - 2nd Place",
-            "Formula Student Taiwan 2023 - 1nd Place",
+            "Formula Student Taiwan 2023 - 1nd Place"
           ]
-        },
+        }
       ],
       slides: [
         {
           type: "image",
-          src: require("./assets/images/NTUR_wheelend.png"), 
+          src: require("./assets/images/NTUR_wheelend.png"),
           caption: "The wheel-end system and the hub motor gearbox."
         },
         {
           type: "image",
-          src: require("./assets/images/NTUR_sketch.png"), 
+          src: require("./assets/images/NTUR_sketch.png"),
           caption: "The sketch of the gearbox architecture."
         },
         {
           type: "image",
-          src: require("./assets/images/NTUR_ansys.jpg"), 
+          src: require("./assets/images/NTUR_ansys.jpg"),
           caption: "Simulating the carrier of the gearbox in ANSYS."
         },
         {
           type: "image",
-          src: require("./assets/images/NTUR_2nd.png"), 
-          caption: "The ring gear of the second generation of the gearbox, the whole gearbox reducing 41% of mass."
+          src: require("./assets/images/NTUR_2nd.png"),
+          caption:
+            "The ring gear of the second generation of the gearbox, the whole gearbox reducing 41% of mass."
         },
         {
           type: "image",
-          src: require("./assets/images/NTUR_car.jpg"), 
+          src: require("./assets/images/NTUR_car.jpg"),
           caption: "Our race car on the FSAE Japan 2025 circuit."
         },
         {
           type: "video",
           src: "https://www.youtube.com/embed/sIDlzRR5fLI",
           caption: "Demo Video: Gearbox."
-        },
+        }
       ]
     },
     {
       title: "Traction Control & Torque Vectoring",
       subtitle: "2024, Course Project, Vehicle Dynamics",
-      summary: "Implemented PID slip control and torque vectoring to enhance cornering stability and acceleration.",
-      image: require("./assets/images/TCTV_TC.png"), 
+      summary:
+        "Implemented PID slip control and torque vectoring to enhance cornering stability and acceleration.",
+      image: require("./assets/images/TCTV_TC.png"),
       descriptionSections: [
         {
           heading: "Methods:",
@@ -433,36 +437,40 @@ const customProjects = {
       slides: [
         {
           type: "image",
-          src: require("./assets/images/TCTV_tire.png"), 
-          caption: "Longitudinal force vs. slip ratio under different vertical loads (P = 12 psi) with Magic Formula fitting."
+          src: require("./assets/images/TCTV_tire.png"),
+          caption:
+            "Longitudinal force vs. slip ratio under different vertical loads (P = 12 psi) with Magic Formula fitting."
         },
         {
           type: "image",
-          src: require("./assets/images/TCTV_TC.png"), 
+          src: require("./assets/images/TCTV_TC.png"),
           caption: "Traction controller in MATLAB/Simulink."
         },
         {
           type: "image",
-          src: require("./assets/images/TCTV_TC_result.png"), 
-          caption: "Improved 0-75m acceleration time by 0.35 seconds (4.64s -> 4.29s)."
+          src: require("./assets/images/TCTV_TC_result.png"),
+          caption:
+            "Improved 0-75m acceleration time by 0.35 seconds (4.64s -> 4.29s)."
         },
         {
           type: "image",
-          src: require("./assets/images/TCTV_TV.png"), 
+          src: require("./assets/images/TCTV_TV.png"),
           caption: "Torque vectoring controller in MATLAB/Simulink."
         },
         {
           type: "image",
-          src: require("./assets/images/TCTV_TV_result.png"), 
-          caption: "Improved trajectory tracking during cornering compared to non-TV vehicles."
-        },
+          src: require("./assets/images/TCTV_TV_result.png"),
+          caption:
+            "Improved trajectory tracking during cornering compared to non-TV vehicles."
+        }
       ]
     },
     {
       title: "Handsome Yoga – Real-Time AI Pose Guidance",
       subtitle: "2024, Course Project, Robot Vision",
-      summary: "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
-      image: require("./assets/images/Yoga_cover.png"), 
+      summary:
+        "A real-time yoga pose correction system using MediaPipe and Machine Learning, achieving 97% accuracy.",
+      image: require("./assets/images/Yoga_cover.png"),
       descriptionSections: [
         {
           heading: "Goal:",
@@ -491,25 +499,28 @@ const customProjects = {
         {
           type: "image",
           src: require("./assets/images/Yoga_matrix.png"),
-          caption: "Confusion matrix illustrating high classification accuracy across five yoga poses."
+          caption:
+            "Confusion matrix illustrating high classification accuracy across five yoga poses."
         },
         {
           type: "image",
           src: require("./assets/images/Yoga_UI.png"),
-          caption: "Handsome Yoga: Real-time pose recognition and corrective feedback UI."
+          caption:
+            "Handsome Yoga: Real-time pose recognition and corrective feedback UI."
         },
         {
           type: "video",
           src: "https://www.youtube.com/embed/RBnNu08OnBw",
           caption: "Demo Video: Handsome Yoga."
-        },
+        }
       ]
     },
     {
       title: "Autonomous Wafer Handling Robot",
       subtitle: "2024, Electromechanical Principles Course",
-      summary: "Designed a robot mechanism for smooth wafer pickup, obstacle avoidance, and precise placement.",
-      image: require("./assets/images/Wafer_cover.png"), 
+      summary:
+        "Designed a robot mechanism for smooth wafer pickup, obstacle avoidance, and precise placement.",
+      image: require("./assets/images/Wafer_cover.png"),
       descriptionSections: [
         {
           heading: "Features:",
@@ -530,7 +541,7 @@ const customProjects = {
       slides: [
         {
           type: "video",
-          src: "https://www.youtube.com/embed/WwzgNZalHHc", 
+          src: "https://www.youtube.com/embed/WwzgNZalHHc",
           caption: "Project Demo: Autonomous Wafer Handling."
         }
       ]
@@ -538,7 +549,8 @@ const customProjects = {
     {
       title: "Backflipping Mechanical Cat Robot",
       subtitle: "2023, MakeNTU Hackathon Project",
-      summary: "A spring-powered robot designed to perform a backflip, built within 30 hours.",
+      summary:
+        "A spring-powered robot designed to perform a backflip, built within 30 hours.",
       image: require("./assets/images/Cat_cover.png"),
       descriptionSections: [
         {
@@ -566,24 +578,26 @@ const customProjects = {
         {
           type: "image",
           src: require("./assets/images/Cat_cover.png"),
-          caption: "Backflipping Mechanical Cat Robot prototype with spring–cam jumping mechanism."
+          caption:
+            "Backflipping Mechanical Cat Robot prototype with spring–cam jumping mechanism."
         },
         {
           type: "video",
-          src: "https://www.youtube.com/embed/nl-BKUGqzY8", 
+          src: "https://www.youtube.com/embed/nl-BKUGqzY8",
           caption: "Video Demo: Mechanical design of the leg."
         },
         {
           type: "video",
-          src: "https://www.youtube.com/embed/0bbO0pl9IqM", 
+          src: "https://www.youtube.com/embed/0bbO0pl9IqM",
           caption: "Video Demo: Backflip demonstration."
-        },
+        }
       ]
     },
     {
       title: "NTU ME International Compass",
       subtitle: "2025, Extracurricular Project",
-      summary: "Led a student organization to build a web platform and mentorship program for students applying to graduate schools abroad.",
+      summary:
+        "Led a student organization to build a web platform and mentorship program for students applying to graduate schools abroad.",
       image: require("./assets/images/NTUMEIC.jpg"),
       descriptionSections: [
         {
@@ -591,7 +605,7 @@ const customProjects = {
           points: [
             'Interviewed alumni studying abroad and published <a href="https://ntumeic.onrender.com/articles" target="_blank" rel="noopener noreferrer">articles</a>, improving graduate-school information access for all NTU ME students.',
             'Built the <a href="https://ntumeic.onrender.com/" target="_blank" rel="noopener noreferrer">web platform and database</a> to organize graduate school information.',
-            "Led a mentor program that connected overseas alumni with prospective graduate-school applicants, resulting in over 10 successful matches.",
+            "Led a mentor program that connected overseas alumni with prospective graduate-school applicants, resulting in over 10 successful matches."
           ]
         }
       ],
@@ -599,15 +613,17 @@ const customProjects = {
         {
           type: "image",
           src: require("./assets/images/NTUMEIC.jpg"),
-          caption: "Group photo from the alumni sharing session on U.S. graduate study and career experiences, with over 80 participants."
+          caption:
+            "Group photo from the alumni sharing session on U.S. graduate study and career experiences, with over 80 participants."
         },
         {
           type: "image",
           src: require("./assets/images/NTUMEIC_Chiu.jpg"),
-          caption: "Guest lecture by Professor George Chiu (Purdue University) on graduate admissions and study at Purdue, attended by over 80 participants."
-        },
+          caption:
+            "Guest lecture by Professor George Chiu (Purdue University) on graduate admissions and study at Purdue, attended by over 80 participants."
+        }
       ]
-    },
+    }
   ]
 };
 
@@ -630,14 +646,15 @@ const publicationInfo = {
     {
       title: "A Two-Degree-of-Freedom Pendulum-Driven Spherical Robot Platform",
       authors: `Chang, P.-Y.*, Chou, C.-H.*, Wang T.-J*., ${myName}*, Lin, P.-C. `,
-      journal: "2025 International Conference on Advanced Robotics and Intelligent Systems (ARIS) & 2024 National Conference on Advanced Robotics (NCAR), Oral Presentation",
+      journal:
+        "2025 International Conference on Advanced Robotics and Intelligent Systems (ARIS) & 2024 National Conference on Advanced Robotics (NCAR), Oral Presentation",
       volume: null,
       issue: null,
       pages: null,
       date: "2025",
-      link: "https://drive.google.com/file/d/1dOCEIL2PLkt5aE1pvYJRXWgJ7tk2m2j8/preview", 
+      link: "https://drive.google.com/file/d/1dOCEIL2PLkt5aE1pvYJRXWgJ7tk2m2j8/preview",
       authorNote: "* Co-first author"
-    },
+    }
   ]
 };
 
@@ -665,5 +682,4 @@ export {
   customProjects,
   publicationInfo,
   myName
-
 };

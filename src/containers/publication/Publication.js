@@ -1,8 +1,8 @@
 // src/containers/publication/Publication.js
 
 import React from "react";
-import "./Publication.scss"; 
-import { publicationInfo } from "../../portfolio";
+import "./Publication.scss";
+import {publicationInfo} from "../../portfolio";
 import PublicationCard from "../../components/publicationCard/PublicationCard"; // <-- 引入新的專用組件
 
 export default function Publication() {

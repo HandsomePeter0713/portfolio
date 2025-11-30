@@ -23,10 +23,8 @@
   padding-top: 0px;
 
   > div:last-child {
-    
     // 找到這個最後子元素裡面的分隔線
     .publication-card-border {
-      
       // 移除它的底部間距
       margin-bottom: 0;
     }
