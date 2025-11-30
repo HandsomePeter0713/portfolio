@@ -22,6 +22,7 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 import CustomProjects from "./customProjects/CustomProjects";
+import Publication from "./publication/Publication";  
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -57,6 +58,7 @@ const Main = () => {
             <Skills />
             <StackProgress />
             <Education />
+            <Publication />
             <WorkExperience />
             <Projects />
             <CustomProjects />

@@ -1,0 +1,60 @@
+.publication-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.publication-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px 0px;
+  margin: 0px auto;
+  margin-top: 0rem;
+}
+
+.publication-section > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.publication-list-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+
+  > div:last-child {
+    
+    // 找到這個最後子元素裡面的分隔線
+    .publication-card-border {
+      
+      // 移除它的底部間距
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 1380px) {
+  .publication-card-container {
+    padding-top: 0px;
+  }
+  .publication-heading {
+    font-size: 40px;
+  }
+  .publication-text-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-card-container {
+    padding-top: 0px;
+  }
+  .publication-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .publication-text-subtitle {
+    font-size: 16px;
+  }
+}

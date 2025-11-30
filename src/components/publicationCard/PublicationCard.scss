@@ -1,0 +1,58 @@
+// src/components/publicationCard/PublicationCard.scss
+
+@import "../../_globalColor";
+
+.publication-text {
+  font-size: 18px;
+  line-height: 1.7; // 增加行高，讓長文更容易閱讀
+  color: $textColor;
+  margin: 0;
+  text-align: left;
+
+  .dark-mode & {
+    color: #ffffff;
+  }
+
+  // 標題連結的樣式
+  .publication-title {
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  // 期刊斜體樣式
+  .publication-journal {
+    font-style: italic;
+  }
+
+  .publication-author-note {
+    font-style: italic; // 讓 note 也是斜體
+    color: #555;      // 給它一個稍微柔和的顏色，讓它不那麼顯眼
+
+    .dark-mode & {
+      color: #bbb;
+    }
+  }
+
+  // 你的名字粗體樣式
+  strong {
+    font-weight: 700;
+  }
+}
+
+.publication-card-border {
+  height: 30px;
+  width: 80%;
+  border-top: 2px solid $lightBorder1;
+  margin-bottom: 0px;
+  transition: width 0.6s ease-in-out;
+}
+
+// 當滑鼠懸停在內容上時，讓下方的分隔線變長
+.publication-card-item:hover + .publication-card-border {
+  border-color: $educationCardBorder; // 可以沿用 education 的顏色變數
+  width: 100%;
+}

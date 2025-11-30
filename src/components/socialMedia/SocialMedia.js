@@ -8,14 +8,15 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
+
+      {socialMediaLinks.gmail ? (
         <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -31,15 +32,15 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
-      {socialMediaLinks.gmail ? (
+      
+      {socialMediaLinks.github ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
+          href={socialMediaLinks.github}
+          className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}
