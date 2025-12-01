@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8419df93.css",
-    "main.js": "/portfolio/static/js/main.d4279934.js",
+    "main.js": "/portfolio/static/js/main.8963dd21.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -36,7 +36,7 @@
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Wafer_cover.png": "/portfolio/static/media/Wafer_cover.47e1c73c1fb1fef7c5bc.png",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.8c076e1834fadfed7d7d.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.c36e325502da0c3d4670.pdf",
     "static/media/2_b_hardware_block_diagram.png": "/portfolio/static/media/2_b_hardware_block_diagram.fb6678ac1c463da72af7.png",
     "static/media/biorolaLogo.png": "/portfolio/static/media/biorolaLogo.cd04ac53845a528f8be2.png",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -46,7 +46,7 @@
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.8419df93.css.map": "/portfolio/static/css/main.8419df93.css.map",
-    "main.d4279934.js.map": "/portfolio/static/js/main.d4279934.js.map",
+    "main.8963dd21.js.map": "/portfolio/static/js/main.8963dd21.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.8419df93.css",
-    "static/js/main.d4279934.js"
+    "static/js/main.8963dd21.js"
   ]
 }
