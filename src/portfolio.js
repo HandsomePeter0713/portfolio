@@ -373,7 +373,7 @@ const customProjects = {
             "FSAE Japan 2025 - Overall 11/25 (EV Class)",
             "FSAE Japan 2025 - Sportsmanship Award & JAMA Chairman Award",
             "Formula Student Taiwan 2025 - 2nd Place",
-            "Formula Student Taiwan 2023 - 1nd Place"
+            "Formula Student Taiwan 2023 - 1st Place"
           ]
         }
       ],
