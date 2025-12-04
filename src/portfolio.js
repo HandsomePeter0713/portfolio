@@ -517,7 +517,7 @@ const customProjects = {
     },
     {
       title: "Autonomous Wafer Handling Robot",
-      subtitle: "2024, Electromechanical Principles Course",
+      subtitle: "2024, Course Project, Electromechanical System Principles and Experiments (I)",
       summary:
         "Designed a robot mechanism for smooth wafer pickup, obstacle avoidance, and precise placement.",
       image: require("./assets/images/Wafer_cover.png"),
@@ -548,7 +548,7 @@ const customProjects = {
     },
     {
       title: "Backflipping Mechanical Cat Robot",
-      subtitle: "2023, MakeNTU Hackathon Project",
+      subtitle: "2023, Hackathon Project, 2023 MakeNTU Hackathon",
       summary:
         "A spring-powered robot designed to perform a backflip, built within 30 hours.",
       image: require("./assets/images/Cat_cover.png"),
@@ -595,7 +595,7 @@ const customProjects = {
     },
     {
       title: "NTU ME International Compass",
-      subtitle: "2025, Extracurricular Project",
+      subtitle: "2025, Extracurricular Project, NTU ME International Compass",
       summary:
         "Led a student organization to build a web platform and mentorship program for students applying to graduate schools abroad.",
       image: require("./assets/images/NTUMEIC.png"),
@@ -623,7 +623,66 @@ const customProjects = {
             "Guest lecture by Professor George Chiu (Purdue University) on graduate admissions and study at Purdue, attended by over 80 participants."
         }
       ]
-    }
+    },
+    {
+      title: "2023 Little Mechanical Engineer Camp",
+      subtitle: "2023, Extracurricular Project Volunteer, NTU ME",
+      summary:
+        "Volunteered at a camp for elementary school children, led an engineering team, and designed a bubble machine.",
+      image: require("./assets/images/LMEC_1.png"),
+      descriptionSections: [
+        {
+          heading: "Key Contributions:",
+          points: [
+            "Led 15 people team to design teaching material used for 200 children during the camp.",
+            "Designed a bubble machine with cam mechanisms and a 4-bar linkage."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "image",
+          src: require("./assets/images/LMEC_1.png"),
+          caption:
+            "The bubble machine I designed and build."
+            },
+        {
+          type: "image",
+          src: require("./assets/images/LMEC_2.png"),
+          caption:
+            "Assisting the children with assembling the bubble machine."
+          }
+      ]
+    },
+    {
+      title: "2023 Mechanical Engineering Camp",
+      subtitle: "2023, Extracurricular Project Volunteer, NTU ME",
+      summary:
+        "Volunteered at a camp for senior high school children and designed a glider launcher.",
+      image: require("./assets/images/MEC.png"),
+      descriptionSections: [
+        {
+          heading: "Key Contributions:",
+          points: [
+            "Made a glider launcher with pneumatic cylinders.",
+            "Led 10 students team to design and build glider with foam board and a remote-controlled car.",
+            "Controlled the robot wirelessly in BLE with ESP32 and won the Best Designed Car Award."
+          ]
+        }
+      ],
+      slides: [
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/yE6hpPXaURQ",
+          caption: "Video Demo: Testing the glider launcher."
+        },
+        {
+          type: "video",
+          src: "https://www.youtube.com/embed/SOGMNsNyBfM",
+          caption: "Video Demo: Launching a glider with the launcher."
+        },
+      ]
+    },
   ]
 };
 
