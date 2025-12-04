@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8419df93.css",
-    "main.js": "/portfolio/static/js/main.8cb2fa3f.js",
+    "main.js": "/portfolio/static/js/main.9f731bc1.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -11,9 +11,12 @@
     "static/media/NTUMEIC.png": "/portfolio/static/media/NTUMEIC.4349a3a5c604af458ebe.png",
     "static/media/NTUR_car.png": "/portfolio/static/media/NTUR_car.3762068045fcc0213b89.png",
     "static/media/NTUR_2nd.png": "/portfolio/static/media/NTUR_2nd.535df3421890012fd76a.png",
+    "static/media/LMEC_2.png": "/portfolio/static/media/LMEC_2.850efaf10aaf5bcb3024.png",
     "static/media/NTUR_sketch.png": "/portfolio/static/media/NTUR_sketch.914f848d7a65a380d3d3.png",
     "static/media/Yoga_UI.png": "/portfolio/static/media/Yoga_UI.1c653baad96e19afc0e0.png",
+    "static/media/LMEC_1.png": "/portfolio/static/media/LMEC_1.c653e70c81cf042ac6d0.png",
     "static/media/MechaHeroes.png": "/portfolio/static/media/MechaHeroes.af0f874f04b14d5abf4a.png",
+    "static/media/MEC.png": "/portfolio/static/media/MEC.347987bc978a617a55ea.png",
     "static/media/NTUR_ansys.png": "/portfolio/static/media/NTUR_ansys.50de4b58bf1b75cc96ac.png",
     "static/media/NTUMEIC_Chiu.png": "/portfolio/static/media/NTUMEIC_Chiu.9e79028926413a910252.png",
     "static/media/NTUR_wheelend.png": "/portfolio/static/media/NTUR_wheelend.f46a95d57ef0dc2bba1e.png",
@@ -46,7 +49,7 @@
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.8419df93.css.map": "/portfolio/static/css/main.8419df93.css.map",
-    "main.8cb2fa3f.js.map": "/portfolio/static/js/main.8cb2fa3f.js.map",
+    "main.9f731bc1.js.map": "/portfolio/static/js/main.9f731bc1.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -54,6 +57,6 @@
   },
   "entrypoints": [
     "static/css/main.8419df93.css",
-    "static/js/main.8cb2fa3f.js"
+    "static/js/main.9f731bc1.js"
   ]
 }
