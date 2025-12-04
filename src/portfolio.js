@@ -517,7 +517,8 @@ const customProjects = {
     },
     {
       title: "Autonomous Wafer Handling Robot",
-      subtitle: "2024, Course Project, Electromechanical System Principles and Experiments (I)",
+      subtitle:
+        "2024, Course Project, Electromechanical System Principles and Experiments (I)",
       summary:
         "Designed a robot mechanism for smooth wafer pickup, obstacle avoidance, and precise placement.",
       image: require("./assets/images/Wafer_cover.png"),
@@ -643,15 +644,13 @@ const customProjects = {
         {
           type: "image",
           src: require("./assets/images/LMEC_1.png"),
-          caption:
-            "The bubble machine I designed and build."
-            },
+          caption: "The bubble machine I designed and build."
+        },
         {
           type: "image",
           src: require("./assets/images/LMEC_2.png"),
-          caption:
-            "Assisting the children with assembling the bubble machine."
-          }
+          caption: "Assisting the children with assembling the bubble machine."
+        }
       ]
     },
     {
@@ -680,9 +679,9 @@ const customProjects = {
           type: "video",
           src: "https://www.youtube.com/embed/SOGMNsNyBfM",
           caption: "Video Demo: Launching a glider with the launcher."
-        },
+        }
       ]
-    },
+    }
   ]
 };
 
